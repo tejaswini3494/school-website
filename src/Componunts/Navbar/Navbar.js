@@ -39,7 +39,7 @@ export default function Navbar() {
       
     
       
-        <ul className="  md:flex  items-center justify-between gap-2 text-blue-800  text-sm font-semibold py-2 ">
+        <ul className=" hidden  lg:flex  items-center justify-between gap-2 text-blue-800  text-sm font-semibold py-2 ">
           <li>
             <Link
               to="/"
@@ -109,7 +109,9 @@ export default function Navbar() {
 
                   {/* responsive */}
                  
-        <ul className='lg:hidden w-full h-screen fixed top-30  bg-black text-white left-[-100%]'>
+        <ul className={`lg:hidden w-full h-screen fixed top-30  bg-black text-white 
+          ${toggle?'left-[0]':'left-[-100%]'}
+          `}>
           <li className="p-5">
             <Link
               to="/"
