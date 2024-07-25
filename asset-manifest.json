@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/school-website/static/css/main.1383e9be.css",
+    "main.js": "/school-website/static/js/main.f11fb242.js",
+    "static/js/453.3597f704.chunk.js": "/school-website/static/js/453.3597f704.chunk.js",
+    "index.html": "/school-website/index.html",
+    "main.1383e9be.css.map": "/school-website/static/css/main.1383e9be.css.map",
+    "main.f11fb242.js.map": "/school-website/static/js/main.f11fb242.js.map",
+    "453.3597f704.chunk.js.map": "/school-website/static/js/453.3597f704.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1383e9be.css",
+    "static/js/main.f11fb242.js"
+  ]
+}
