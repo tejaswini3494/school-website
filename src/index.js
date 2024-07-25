@@ -3,11 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Schoolcontext from './Componunts/Schoolcontext.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Schoolcontext>
     <App />
+    </Schoolcontext>
   </React.StrictMode>
 );
 
