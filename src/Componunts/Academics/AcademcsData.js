@@ -1,60 +1,60 @@
 export const AcademicsData = [
   {
     title: "Primary (Grades 1-5) ",
-    skills: [
-      { skill: "English" },
-      { skill: "Mathematics" },
-      { skill: "Science" },
-      { skill: "Social Studies" },
-      { skill: "Art" },
-      { skill: "Physical Education" },
+    descriptions: [
+      { description: "English" },
+      { description: "Mathematics" },
+      { description: "Science" },
+      { description: "Social Studies" },
+      { description: "Art" },
+      { description: "Physical Education" },
     ],
     category: "academics",
   },
   {
     title: "Secondary (Grades 6-10)",
-    skills: [
-      { skill: "English" },
-      { skill: "Mathematics" },
-      { skill: "Science(Physics, Chemistry, Biology)" },
-      { skill: "Social Studies" },
-      { skill: "Computer Science," },
-      { skill: "Physical Education" },
-      { skill: "Art" },
+    descriptions: [
+      { description: "English" },
+      { description: "Mathematics" },
+      { description: "Science(Physics, Chemistry, Biology)" },
+      { description: "Social Studies" },
+      { description: "Computer Science," },
+      { description: "Physical Education" },
+      { description: "Art" },
     ],
     category: "academics",
   },
   {
     title: "Senior Secondary (Grades 11-12) Science Stream:",
-    skills: [
-      { skill: "Mathematics" },
-      { skill: "Physics" },
-      { skill: " Chemistry" },
-      { skill: " Biology" },
+    descriptions: [
+      { description: "Mathematics" },
+      { description: "Physics" },
+      { description: " Chemistry" },
+      { description: " Biology" },
 
-      { skill: "Computer Science" },
+      { description: "Computer Science" },
 
-      { skill: "English" },
+      { description: "English" },
     ],
     category: "academics",
   },
   {
     title: "Senior Secondary (Grades 11-12) Commerce Stream:",
-    skills: [
-      { skill: "Mathematics" },
-      { skill: "Accountancy" },
-      { skill: "Business Studies" },
-      { skill: "Economics" },
-      { skill: "Computer Science" },
-      { skill: "English" },
+    descriptions: [
+      { description: "Mathematics" },
+      { description: "Accountancy" },
+      { description: "Business Studies" },
+      { description: "Economics" },
+      { description: "Computer Science" },
+      { description: "English" },
     ],
     category: "academics",
   },
   {
     title: "Process",
-    skills: [
+    descriptions: [
       {
-        skill:
+        description:
           "Admission forms are available for download. Submit the completed form along with required documents at the school office",
       },
     ],
@@ -62,9 +62,9 @@ export const AcademicsData = [
   },
   {
     title: "Criteria",
-    skills: [
+    descriptions: [
       {
-        skill:
+        description:
           "Admission is based on merit and availability of seats. Entrance tests may be conducted for certain grades.",
       },
     ],
@@ -72,21 +72,21 @@ export const AcademicsData = [
   },
   {
     title: "Important Dates",
-    skills: [
+    descriptions: [
       {
-        skill:
+        description:
           "Admission Form Availability: March 1st",
       },
       {
-        skill:
+        description:
           "Last Date for Submission: March 31st ",
       },
       {
-        skill:
+        description:
           "Entrance Test: April 15th",
       },
       {
-        skill:
+        description:
           "Announcement of Results: April 30th",
       },
     ],
@@ -94,9 +94,9 @@ export const AcademicsData = [
   },
   {
     title: "John Doe",
-    skills: [
+    descriptions: [
       {
-        skill:
+        description:
           "Principal, M.Ed, 20 years of experience in educational administration.",
       },
     ],
@@ -104,9 +104,9 @@ export const AcademicsData = [
   },
   {
     title: "Jane Smith",
-    skills: [
+    descriptions: [
       {
-        skill:
+        description:
           "Vice Principal, M.Sc. in Physics, 15 years of teaching experience.",
       },
     ],
@@ -114,9 +114,9 @@ export const AcademicsData = [
   },
   {
     title: "Emily Johnson:",
-    skills: [
+    descriptions: [
       {
-        skill:
+        description:
           "English Teacher, M.A. in English, 10 years of teaching experience.",
       },
     ],
@@ -124,9 +124,9 @@ export const AcademicsData = [
   },
   {
     title: "Michael Brown",
-    skills: [
+    descriptions: [
       {
-        skill:
+        description:
           " Mathematics Teacher, M.Sc. in Mathematics, 8 years of teaching experience.",
       },
     ],
@@ -134,9 +134,9 @@ export const AcademicsData = [
   },
   {
     title: "Sophia Davis",
-    skills: [
+    descriptions: [
       {
-        skill:
+        description:
           "Science Teacher, M.Sc. in Chemistry, 12 years of teaching experience.",
       },
     ],
@@ -144,9 +144,9 @@ export const AcademicsData = [
   },
   {
     title: "David Wilson",
-    skills: [
+    descriptions: [
       {
-        skill:
+        description:
           "Computer Science Teacher, B.Tech in Computer Science, 5 years of teaching experience.",
       },
     ],
@@ -154,9 +154,9 @@ export const AcademicsData = [
   },
   {
     title: "History",
-    skills: [
+    descriptions: [
       {
-        skill:
+        description:
           "Founded in 1985, Springdale Public School has been dedicated to providing quality education and holistic development to students.",
       },
     ],
@@ -164,9 +164,9 @@ export const AcademicsData = [
   },
   {
     title: "Vision",
-    skills: [
+    descriptions: [
       {
-        skill:
+        description:
           "To create a learning environment that fosters academic excellence, critical thinking, and ethical values.",
       },
     ],
@@ -174,10 +174,10 @@ export const AcademicsData = [
   },
   {
     title: "Mission",
-    skills: [
+    descriptions: [
       {
-        skill:
-          "To empower students with the knowledge, skills, and values needed to thrive in a dynamic world.",
+        description:
+          "To empower students with the knowledge, descriptions, and values needed to thrive in a dynamic world.",
       },
     ],
     category: "about",
@@ -185,9 +185,9 @@ export const AcademicsData = [
 
   {
     title: "Principal's Message",
-    skills: [
+    descriptions: [
       {
-        skill:
+        description:
           "At Springdale, we believe in nurturing the potential of every student and guiding them towards a successful future.",
       },
     ],
@@ -195,34 +195,34 @@ export const AcademicsData = [
   },
   {
     title: "Infrastructure and Facilities",
-    skills: [
+    descriptions: [
       {
-        skill: "State-of-the-art science and computer lab.",
+        description: "State-of-the-art science and computer lab.",
       },
       {
-        skill: "Spacious and well-equipped classrooms",
+        description: "Spacious and well-equipped classrooms",
       },
       {
-        skill: "Library with a vast collection of books and digital resources",
+        description: "Library with a vast collection of books and digital resources",
       },
       {
-        skill: "Library with a vast collection of books and digital resources",
+        description: "Library with a vast collection of books and digital resources",
       },
       {
-        skill: "Sports facilities including a playground, gymnasium, and swimming pool",
+        description: "Sports facilities including a playground, gymnasium, and swimming pool",
       },
     ],
     category: "about",
   },
   {
     title: "Life at Springdale :",
-    skills: [
+    descriptions: [
       {
-        skill:
+        description:
         "Extracurricular Activities: Music, Dance, Drama, Art, Sports, Robotics, Debate Club, Science Club",
       },
       {
-        skill:
+        description:
         "Clubs and Societies: Literary Society, Environmental Club, Astronomy Club, Coding Club",
       },
     ],
@@ -230,17 +230,17 @@ export const AcademicsData = [
   },
   {
     title: "Achievements :",
-    skills: [
+    descriptions: [
       {
-        skill:
+        description:
         "John Smith - National Level Math Olympiad Winner",
       },
       {
-        skill:
+        description:
         "Sarah Lee - Gold Medalist in State Swimming Championship",
       },
       {
-        skill:
+        description:
         "Tech Innovators Club - Winners of Inter-School Robotics Competition",
       },
     ],
@@ -248,17 +248,17 @@ export const AcademicsData = [
   },
   {
     title: "Student Council :",
-    skills: [
+    descriptions: [
       {
-        skill:
+        description:
         "President: Amy Parker, Grade 12",
       },
       {
-        skill:
+        description:
         "Vice President: Rajiv Mehta, Grade 11",
       },
       {
-        skill:
+        description:
         "Secretary: Lisa Wong, Grade 10",
       },
     ],

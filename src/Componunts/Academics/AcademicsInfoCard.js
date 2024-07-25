@@ -1,14 +1,14 @@
 import React from 'react'
 
-export default function AcademicsInfoCard({heading,skills}) {
+export default function AcademicsInfoCard({heading,descriptions}) {
   return (
     <>
     <div className='text-black text-2xl'>{heading}</div>
     
-    {skills.map((item)=>{
+    {descriptions.map((item)=>{
         return(
             <>
-            <p>{item.skill}</p>
+            <p>{item.description}</p>
           
             </>
         )

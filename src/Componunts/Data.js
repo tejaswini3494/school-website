@@ -12,7 +12,7 @@ import { ShopcontextMe } from "./Schoolcontext";
 export default function Data(props) {
     const { AcademicsData } = useContext(ShopcontextMe);
     const [count, setcount] = useState(AcademicsData[0]);
-    const handelSkill = (data) => {
+    const handeldescription = (data) => {
       setcount(data);
     };
   
@@ -28,7 +28,7 @@ export default function Data(props) {
                   title={item.title}
                    isActive={count.title === item.title}
                   onClick={() => {
-                    handelSkill(item);
+                    handeldescription(item);
                   }}
             
 
@@ -42,7 +42,7 @@ export default function Data(props) {
       })}
     </div>
     <div className=" flex-1 flex flex-col text-blue-800 font-semibold text-lg gap-4">
-    <AcademicsInfoCard heading={count.title} skills={count.skills}/>
+    <AcademicsInfoCard heading={count.title} descriptions={count.descriptions}/>
     </div>
     </div>
     </>
